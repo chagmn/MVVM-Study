@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		761008A02575FE1E000F5107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7610089F2575FE1E000F5107 /* AppDelegate.swift */; };
 		761008A22575FE1E000F5107 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761008A12575FE1E000F5107 /* SceneDelegate.swift */; };
-		761008A42575FE1E000F5107 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761008A32575FE1E000F5107 /* ViewController.swift */; };
 		761008A72575FE1F000F5107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761008A52575FE1F000F5107 /* Main.storyboard */; };
 		761008A92575FE21000F5107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761008A82575FE21000F5107 /* Assets.xcassets */; };
 		761008AC2575FE21000F5107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761008AA2575FE21000F5107 /* LaunchScreen.storyboard */; };
+		761008B62575FECD000F5107 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761008B52575FECD000F5107 /* Model.swift */; };
+		761008CA25761588000F5107 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761008C925761588000F5107 /* ViewModel.swift */; };
+		761008CD2576190C000F5107 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761008CC2576190C000F5107 /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7610089C2575FE1E000F5107 /* MVVM Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7610089F2575FE1E000F5107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		761008A12575FE1E000F5107 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		761008A32575FE1E000F5107 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		761008A62575FE1F000F5107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		761008A82575FE21000F5107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		761008AB2575FE21000F5107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		761008AD2575FE21000F5107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761008B52575FECD000F5107 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		761008C925761588000F5107 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		761008CC2576190C000F5107 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				7610089F2575FE1E000F5107 /* AppDelegate.swift */,
 				761008A12575FE1E000F5107 /* SceneDelegate.swift */,
-				761008A32575FE1E000F5107 /* ViewController.swift */,
+				761008B52575FECD000F5107 /* Model.swift */,
+				761008C925761588000F5107 /* ViewModel.swift */,
+				761008CC2576190C000F5107 /* View.swift */,
 				761008A52575FE1F000F5107 /* Main.storyboard */,
 				761008A82575FE21000F5107 /* Assets.xcassets */,
 				761008AA2575FE21000F5107 /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				761008A42575FE1E000F5107 /* ViewController.swift in Sources */,
+				761008B62575FECD000F5107 /* Model.swift in Sources */,
 				761008A02575FE1E000F5107 /* AppDelegate.swift in Sources */,
+				761008CD2576190C000F5107 /* View.swift in Sources */,
+				761008CA25761588000F5107 /* ViewModel.swift in Sources */,
 				761008A22575FE1E000F5107 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
